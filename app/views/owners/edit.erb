@@ -1,4 +1,5 @@
- 
+<h1>Update Owner</h1>
+
 <h2>Edits for <%= @owner.name %></h2>
  
   <form action="/owners/<%= @owner.id %>" method="POST">
@@ -9,7 +10,7 @@
  
     <br>
     <p>Select an existing pet or create a new one below.</p>
- 
+
  
     <h3>Existing Pets</h3>
     <% @pets.each do |pet| %>
